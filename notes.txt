@@ -1,0 +1,10 @@
+npm i -y 
+npm i express body-parser cors dotenv helmet morgan mongoose nodemon
+
+Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env
+CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
+Express web framework for Node.js.
+Helmet helps you secure your Express apps by setting various HTTP headers.
+Morgan HTTP request logger middleware for node.js
+Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment
+body-parser Node.js body parsing middleware.
