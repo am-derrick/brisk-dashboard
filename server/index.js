@@ -9,7 +9,7 @@ import morgan from 'morgan';
 import clientRoutes from './routes/client.js';
 import generalRoutes from './routes/general.js';
 import managementRoutes from './routes/management.js';
-//import salesRoutes from './routes/sales.js';
+import salesRoutes from './routes/sales.js';
 
 /* CONFIGURE */
 dotenv.config();
@@ -32,6 +32,7 @@ app.use('/sales', salesRoutes);
 
 /* MONGOOSE */
 const PORT = process.env.PORT || 9000;
+mongoose.set("strictQuery", false);
 mongoose.connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
