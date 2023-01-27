@@ -10,3 +10,17 @@ Mongoose is a MongoDB object modeling tool designed to work in an asynchronous e
 body-parser Node.js body parsing middleware.
 
 nodemon - live server reload
+
+npm i react-redux
+@reduxjs/toolkit
+react-datepicker
+react-router-dom@6 
+@mui/material
+@emotion/react 
+@emotion/styled
+@mui/icons-material
+@mui/x-data-grid @
+nivo/core 
+@nivo/bar 
+@nivo/geo 
+@nivo/pie
